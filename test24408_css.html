@@ -1,16 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <style>
     u{
   font-family: "Nanum Pen Script", cursive;
@@ -26,19 +14,46 @@ h1 {
   font-style: normal;
   color: blue;
 text-align: center;
-}
+}   
 fieldset{
     background-color: white;
     border-style: ;
-    border-color: black;
+    border-color: blue;
     border-width: ;
     border-radius: ;
+    border-style: dashed;
 }
+a:visited {
+    color:aqua;
+}
+a:hover{
+    background-color: chartreuse;
+}
+ fieldset:hover {
+    background-color: magenta;
+ }
+ .odd{
+    font-size: 50px;
+ }
  
+ </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </style>
 </head>
 <body>
     <h1>2024 대학 수능 국어영역</h1>
+    <h2><a href="http://google.com">시험지로 이동</a></h2>
     <h3>8~9.다음 <보기>를 읽고고</h3>
     <fieldset>
         <legend><보기></legend>
@@ -82,15 +97,15 @@ fieldset{
         선택한다. 이 기법은 이상치가 있어도 직선 L을 찾을 가능성이
         높다.</p> 
     </fieldset>
-    <label for="">1</label>
+    <label for="" class="odd">1</label>
     <input type="radio" name="s" id=""><br>
-    <label for="">2</label>
+    <label for="" >2</label>
     <input type="radio" name="s" id=""><br>
-    <label for="">3</label>
+    <label for="" class="odd">3</label>
     <input type="radio" name="s" id=""><br>
     <label for="">4</label>
     <input type="radio" name="s" id=""><br>
-    <label for="">5</label>
+    <label for="" class="odd">5</label>
     <input type="radio" name="s" id="">
 </body>
 </html>
